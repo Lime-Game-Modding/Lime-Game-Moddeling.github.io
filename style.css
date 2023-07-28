@@ -9,13 +9,16 @@ body{
 }
 
 .dev-name{
+    padding-top: 1pc;
+    padding-bottom: 0.2pc;
     font-size: large;
+    font-weight: bold;
 }
 
 #team-presentation{
-    padding: 5%;
+    padding: 3pc;
     width: 70%;
     margin: auto;
     background-color: bisque;
-    border: 4px solid snow;
+    border: 4px solid sandybrown;
 }
