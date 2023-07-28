@@ -6,17 +6,19 @@ body{
 
 .dev-desc{
     font-size: medium;
+    margin-top: 0px;
 }
 
 .dev-name{
-    padding-top: 1pc;
-    padding-bottom: 0.2pc;
+    padding-top: 5px;
+    padding-bottom: 2px;
     font-size: large;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 #team-presentation{
-    padding: 3pc;
+    padding: 1pc 3pc;
     width: 70%;
     margin: auto;
     background-color: bisque;
