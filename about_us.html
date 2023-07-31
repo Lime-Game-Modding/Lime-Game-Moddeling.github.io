@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="Images/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .cards-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .card img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .card {
+            margin: 0 0.5em;
+            box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+            border: none;
+            border-radius: 1;
+        }
+
+        .carousel-inner {
+            padding: 1em;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: #e1e1e1;
+            width: 5vh;
+            height: 5vh;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        @media (min-width: 768px) {
+            .card img {
+                height: 14em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="main_page.html">
+            <img src="Images/Logo.png" alt="Logo" height="36">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Logic Kits</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+
+            <!-- Dropdown (moved to the end) -->
+            <li class="nav-item dropdown navbar-toggler-right">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Instructions
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">4bit Adder</a>
+                    <a class="dropdown-item disabled" href="#">Clock</a>
+                    <a class="dropdown-item disabled" href="#">4bit Register</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <br>
+
+    <div class="container text-center">
+        <h3>Our team</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="cards-wrapper">
+        <div class="card d-none d-md-block">
+            <img src="Images/Hecker.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Hecker</h5>
+                <p class="card-text">Hecker is the first Member of the Team and the Original Founder.He is also the
+                    first Member of the Developement Team.</p>
+            </div>
+        </div>
+        <div class="card d-none d-md-block">
+            <img src="Images/AlphaCodingPilot.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">AlphaCodingPilot</h5>
+                <p class="card-text">AlphaCodingPilot is the second Memeber of the Team and one of the Founders. He is
+                    also a Member of the Developement
+                    Team.</p>
+            </div>
+        </div>
+        <div class="card d-none d-md-block">
+            <img src="Images/Antonin.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Antonin</h5>
+                <p class="card-text">Antonin is the third Member of the Team and one of the Founders as well. He is a
+                    Member of the Developement Team.</p>
+            </div>
+        </div>
+        <div class="card d-none d-md-block">
+            <img src="Images/TheRiggedDev.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">TheRiggedDev</h5>
+                <p class="card-text">TheRiggedDev is the fourth Member of the Team and one of the Founders. He is also a
+                    Member of the Developement Team.</p>
+            </div>
+        </div>
+        <div class="card d-none d-md-block">
+            <img src="Images/Mindful.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">JustMindfulYT</h5>
+                <p class="card-text">JustMindfulYT is the last Member of the Team and the last Founder as well. She is
+                    also the Last Member of the
+                    Developement Team.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
