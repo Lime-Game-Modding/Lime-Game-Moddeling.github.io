@@ -5,7 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="testing.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+        html,
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: aliceblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            position: relative;
+            /* Add relative positioning to the header */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1.1rem 5rem;
+            background: #211B1B;
+            opacity: 92%;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        li {
+            list-style-type: none;
+            margin-left: 3rem;
+        }
+
+        li>a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+
+        li::after {
+            content: '';
+            width: 0rem;
+            height: 0.15rem;
+            background-color: #fff;
+            display: block;
+            border-radius: 0.2rem;
+            margin: 0.2rem auto 0 auto;
+            transition: all 0.3s ease-in-out;
+        }
+
+        li:hover::after {
+            width: 2rem;
+        }
+
+        /* Add this CSS to position the image at the top */
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            /* Assuming you want the image to span the entire width of the viewport */
+            z-index: -1;
+            /* Ensure the image stays behind the header */
+        }
+
+        .title {
+            color: #F1F1F1;
+            font-family: Kanit;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+    </style>
 </head>
 
 <body>
