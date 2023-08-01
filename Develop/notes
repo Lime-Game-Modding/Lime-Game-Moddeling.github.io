@@ -1,0 +1,45 @@
+<div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="Images/Antonin.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Antonin</h5>
+                            <p class="card-text">Antonin is the third Member of the Team and co-founder of Lime Inc.</p>
+                            <p class="card-text">-Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<img src="Images/Hecker.png" class="card-img-top" alt="...">
+<h5 class="card-title">Hecker</h5>
+<p class="card-text">Hecker is the first Member of the Team and the Founder of Lime Inc.</p>
+<p class="card-text">-Developer<br>-Music Producer</p>
+
+<img src="Images/Antonin.png" class="card-img-top" alt="...">
+<h5 class="card-title">Antonin</h5>
+<p class="card-text">Antonin is the third Member of the Team and co-founder of Lime Inc.</p>
+<p class="card-text">-Developer</p>
+
+<img src="Images/AlphaCodingPilot.png" class="card-img-top" alt="...">
+<h5 class="card-title">AlphaCodingPilot</h5>
+<p class="card-text">AlphaCodingPilot is the second Memeber of the Team and co-founder of
+    Lime
+    Inc.
+</p>
+
+<img src="Images/TheRiggedDev.png" class="card-img-top" alt="...">
+<div class="card-body">
+    <h5 class="card-title">TheRiggedDev</h5>
+    <p class="card-text">TheRiggedDev is the fourth Member of the Team and co-founder.</p>
+    <p class="card-text">-Developer<br>-Pixel Artist</p>
+</div>
+
+<img src="Images/Mindful.png" class="card-img-top" alt="...">
+<div class="card-body">
+    <h5 class="card-title">JustMindfulYT</h5>
+    <p class="card-text">JustMindfulYT is the fifth Member of the Team and last co-founder.
+    </p>
+    <p class="card-text">-Developer</p>
+</div>

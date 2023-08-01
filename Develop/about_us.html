@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="Images/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="main_page.html">
+            <img src="Images/Logo.png" alt="Logo" height="36">
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Logic Kits</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="about_us.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+
+            <!-- Dropdown (moved to the end) -->
+            <li class="nav-item dropdown navbar-toggler-right">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Instructions
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">4bit Adder</a>
+                    <a class="dropdown-item disabled" href="#">Clock</a>
+                    <a class="dropdown-item disabled" href="#">4bit Register</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+    <div class="container text-center">
+        <h3>Our Team</h3>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="Images/Hecker.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hecker</h5>
+                            <p class="card-text">Hecker is the first Member of the Team and the Founder of Lime Inc.</p>
+                            <p class="card-text">-Developer<br>-Music Producer</p>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="Images/AlphaCodingPilot.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">AlphaCodingPilot</h5>
+                            <p class="card-text">AlphaCodingPilot is the second Memeber of the Team and co-founder of
+                                Lime
+                                Inc.
+                            </p>
+                            <p class="card-text">-Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="Images/Antonin.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Antonin</h5>
+                            <p class="card-text">Antonin is the third Member of the Team and co-founder of Lime Inc.
+                            </p>
+                            <p class="card-text">-Developer</p>
+                        </div>
+                    </div>
+                    <div class="card d-none d-md-block">
+                        <img src="Images/TheRiggedDev.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TheRiggedDev</h5>
+                            <p class="card-text">TheRiggedDev is the fourth Member of the Team and co-founder.</p>
+                            <p class="card-text">-Developer<br>-Pixel Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <img src="Images/Mindful.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JustMindfulYT</h5>
+                            <p class="card-text">JustMindfulYT is the fifth Member of the Team and last co-founder.
+                            </p>
+                            <p class="card-text">-Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h3>How to join team?</h3>
+        </div>
+
+        <br>
+
+        <div class="container text-center">
+            <p>If you have a passion for learning, collaborating<br>with talented individuals, and honing your software
+                development<br>
+                skills, you've come to the right place!<br><br>
+
+                <b>How to join our team and become a contributor:</b><br><br>
+
+                1.<mark>Explore</mark> our repositories on GitHub: [link to your GitHub organization/profile].<br>
+                2.<mark>Find</mark> a project that interests you and <mark>review</mark> the contribution guidelines.<br>
+                3.<mark>Make</mark> your changes or <mark>new</mark> features to the project.<br>
+                4.<mark>Propose</mark> your changes through a pull request on GitHub.<br>
+                5.Our team will <mark>review</mark> your contribution and <mark>get</mark> in touch with you for further collaboration.<br><br>
+                Don't worry if you're new to Git and GitHub or have limited<br>experience. We are ready to provide
+                assistanceand support<br>
+                to help you quickly get up to speed with the contribution process.<br><br>
+
+                We welcome new ideas and perspectives, and your<br>contributions are incredibly valuable to us.<br> Together,
+                we can create
+                something truly special!</p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
